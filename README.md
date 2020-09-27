@@ -24,14 +24,16 @@ There are two main hues :
 Saturation (denoted as s) indicates the degree to which the hue differs from a neutral gray. The values run from
 0%, which is no color saturation, to 100%, which is the fullest saturation of a given hue at a given percentage of
 illumination.
+
 ![Saturation](https://github.com/KEROLIS/Image-Transformation/blob/master/staruation.png)
 
 ## Luminance
 Luminance (denoted as l) indicates the level of illumination. The values run as percentages; 0% appears black
 (no light) while 100% is full illumination, which washes out the color (it appears white).
+
 ![Luminance](https://github.com/KEROLIS/Image-Transformation/blob/master/Lumi.png)
 
-![Overall](/https://github.com/KEROLIS/Image-Transformation/blob/master/Over%20all.png)
+![Overall](https://github.com/KEROLIS/Image-Transformation/blob/master/Overall.png)
 
 ## HSL Color Space
 The full HSL color space is a three-dimensional space, but it is not a cube (nor exactly cylindrical). The area
