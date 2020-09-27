@@ -1,5 +1,22 @@
 # Image-Transformation
+## Installing
 
+Download the repo if you are using windos or open the terminal and type the fowllowing command to clone into the repo :
+
+```
+ git clone https://github.com/KEROLIS/Image-Transformation.git
+```
+
+## Prerequests
+Start by updating the packages list:
+``` 
+sudo apt update
+```
+Install the build-essential package by typing:
+```
+ sudo apt install build-essential
+```
+The command installs a bunch of new packages including gcc, g++ and make.
 ## Part 1: HSLAPixel
 ## Understanding Color Spaces
 we will not be working with the physical properties of color that you may be familiar with from
