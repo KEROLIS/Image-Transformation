@@ -18,20 +18,20 @@ orange, purple, etc.
 There are two main hues :
 * "Illini Orange" has a hue of 11.
 * "Illini Blue" has a hue of 216.
-![Hue](/images/image.K9F1Q0.png)
+![Hue](https://github.com/KEROLIS/Image-Transformation/blob/master/Hue.png)
 
 ## Saturation
 Saturation (denoted as s) indicates the degree to which the hue differs from a neutral gray. The values run from
 0%, which is no color saturation, to 100%, which is the fullest saturation of a given hue at a given percentage of
 illumination.
-![Saturation](/images/logo.png)
+![Saturation](https://github.com/KEROLIS/Image-Transformation/blob/master/staruation.png)
 
 ## Luminance
 Luminance (denoted as l) indicates the level of illumination. The values run as percentages; 0% appears black
 (no light) while 100% is full illumination, which washes out the color (it appears white).
-![Saturation](/images/logo.png)
+![Luminance](https://github.com/KEROLIS/Image-Transformation/blob/master/Lumi.png)
 
-![Overall](/images/logo.png)
+![Overall](/https://github.com/KEROLIS/Image-Transformation/blob/master/Over%20all.png)
 
 ## HSL Color Space
 The full HSL color space is a three-dimensional space, but it is not a cube (nor exactly cylindrical). The area
@@ -68,7 +68,7 @@ the test suite and make sure you are doing Parts 1 and 2 correctly with unit tes
 by typing **./test** in the same directory. We use the widely-used C++ testing framework Catch. You are always
 encouraged to write additional test cases; the executable Catch generates will run all of your tests and show you
 a report.
-![test](/images/logo.png)
+![test](https://github.com/KEROLIS/Image-Transformation/blob/master/test.png)
 
 ## Part 2: Using uiuc::PNG
 Now that we have an**HSLAPixel** , it's time to manipulate some images! First, let's understand the PNG class that
@@ -114,7 +114,7 @@ To illinify an image is to transform the hue of every pixel to Illini Orange (11
 every pixel should be set to one or the other of these two hue values, based on whether the pixel's original hue
 value is closer to Illini Orange or Illini Blue. Remember, hue values are arranged in a logical circle! If you keep
 increasing the hue value, for example, what should eventually happen?
-![illinify](/images/logo.png)
+![illinify](https://github.com/KEROLIS/Image-Transformation/blob/master/out-illinify.png)
 
 ## Function #2: spotlight
 To spotlight an image is to create a spotlight pattern centered at a given point ( centerX , centerY ).
@@ -124,7 +124,7 @@ luminance at most.
 For example, a pixel 3 pixels above and 4 pixels to the right of the center is a total of sqrt(3*3 + 4*4)
 = sqrt(25) = 5 pixels away and its luminance is decreased by 2.5% (0.975 its original value). At a distance
 over 160 pixels away, the luminance will always be decreased by 80% (0.2x its original value).
-![spotlight](/images/logo.png)
+![spotlight](https://github.com/KEROLIS/Image-Transformation/blob/master/out-spotlight.png)
 
 ## Function #3: watermark
 To watermark an image is to lighten a region
@@ -140,5 +140,5 @@ coordinates.
 For every pixel that exists within the bounds
 of both base image and stencil, the luminance of the base image should be increased by +0.2 (absolute, but not
 to exceed 1.0) if and only if the luminance of the stencil at the same pixel position is at maximum (1.0).
-![watermark](/images/logo.png)
+![watermark](https://github.com/KEROLIS/Image-Transformation/blob/master/out-watermark.png)
 
